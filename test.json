@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "isActive": true,
+      "roles": ["Admin", "User"],
+      "metadata": null
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "isActive": false,
+      "roles": ["User"],
+      "metadata": {
+        "lastLogin": "2026-07-01T14:30:00Z"
+      }
+    }
+  ]
+}
